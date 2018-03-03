@@ -1,0 +1,9 @@
+*{
+  padding: 0;
+  margin: 0 auto;
+}
+header{
+  height: auto;
+  background:#00ACC1;
+  background: linear-gradient(to bottom right, #90A4AE, #00ACC1);
+}
