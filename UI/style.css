@@ -24,6 +24,7 @@ h1{
 h1:hover{
   text-shadow: 2px 2px #01579B;
   color: white;
+
 }
 .ico{
   opacity:0.9;
@@ -62,7 +63,18 @@ li{
 .button1:hover{
   opacity: 0.8;
   background: #4DD0E1;
+
 }
 .button1:active{
+  transform: translateY(4px);
   cursor: progress;
+  box-shadow: 3px 2px;
+}
+label{
+  color: #00897B;
+  opacity:0.9;
+}
+label:hover{
+  color: #0277BD;
+  opacity: 1;
 }
