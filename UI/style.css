@@ -33,7 +33,7 @@ h1:hover{
 }
 .ico:hover{
   opacity:1;
-  color:
+  cursor: help;
 }
 .for_java{
   height: auto;
@@ -55,13 +55,14 @@ li{
   height: 30%;
   padding-top: 3%;
 }
-.custom{
-  padding-left: 40%;
-  text-align: justify;
-  padding-right: 40%;
-
-}
 .button1{
-  width: 50%;
-  height: 50%;
+  padding: 10px;
+  background: #80CBC4;
+}
+.button1:hover{
+  opacity: 0.8;
+  background: #4DD0E1;
+}
+.button1:active{
+  cursor: progress;
 }
