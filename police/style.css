@@ -2,3 +2,44 @@
 padding: 0;
 margin: 0 auto;
 }
+h1 {
+    margin: 0 auto;
+    font-family: "Times New Roman", Times, serif;
+    height: 100px width: 100px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 60%;
+    font-weight: bold;
+    color: white;
+
+
+}
+header{
+  background:linear-gradient(to bottom right, #A1887F, #DCE775);
+  opacity: 0.8;
+  width: 100%;
+  position: relative;
+}
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 300px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #1EC9D5;
+}
+
+tr:nth-child(odd) {
+    background-color: #187EC1;
+}
